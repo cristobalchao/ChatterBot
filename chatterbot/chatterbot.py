@@ -170,7 +170,7 @@ class ChatBot(object):
 
     class InvalidAdapterException(Exception):
 
-        def __init__(self, message='Recieved an unexpected adapter setting.'):
+        def __init__(self, message='Received an unexpected adapter setting.'):
             super(ChatBot.InvalidAdapterException, self).__init__(message)
 
         def __str__(self):
